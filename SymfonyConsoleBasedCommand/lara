@@ -9,7 +9,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 require 'vendor/autoload.php';
 
-$app=new Application('My Demo Command', '0.1');
+$app=new Application('My Demo Command', '0.1.1');
 
 $app->register('sayhello')
 	->setDescription('Offer a greeting to the given person')
