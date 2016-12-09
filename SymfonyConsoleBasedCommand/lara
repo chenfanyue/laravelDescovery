@@ -19,4 +19,6 @@ $app->register('sayhello')
 		$output->writeln("<info>{$message}</info>");
 	});
 
+$app->add(new Sayhi);
+
 $app->run();
