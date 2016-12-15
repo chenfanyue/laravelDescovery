@@ -2,13 +2,11 @@
 // pa make:controller ReportsController
 
 <?php
-
 Route::get('reports','ReportsController@compile');
 
 
 // another file
 <?php
-
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
@@ -22,10 +20,8 @@ class ReportsController extends Controller
     }
 }
 
-
 // another file
 <?php
-
 namespace App\Jobs;
 
 use Illuminate\Bus\Queueable;
