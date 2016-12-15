@@ -1,3 +1,6 @@
+// pa make:job CompileReports
+// pa make:controller ReportsController
+
 <?php
 
 Route::get('reports','ReportsController@compile');
